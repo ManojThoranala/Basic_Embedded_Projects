@@ -31,19 +31,19 @@ int main()
   {
     Lcd_Clear();
     Lcd_Set_Cursor(1,1);
-    Lcd_Write_String("LCD Library for");
+    Lcd_Write_String("LCD Library -");
     Lcd_Set_Cursor(2,1);
     Lcd_Write_String("MPLAB XC8");
     __delay_ms(2000);
     Lcd_Clear();
     Lcd_Set_Cursor(1,1);
-    Lcd_Write_String("Developed By");
+    Lcd_Write_String("Hi There");
     Lcd_Set_Cursor(2,1);
-    Lcd_Write_String("electroSome");
+    Lcd_Write_String("Welcome");
     __delay_ms(2000);
     Lcd_Clear();
     Lcd_Set_Cursor(1,1);
-    Lcd_Write_String("www.electroSome.com");
+    Lcd_Write_String("");
 
     for(a=0;a<15;a++)
     {
@@ -59,8 +59,8 @@ int main()
 
     Lcd_Clear();
     Lcd_Set_Cursor(2,1);
-    Lcd_Write_Char('e');
-    Lcd_Write_Char('S');
+    Lcd_Write_Char('H');
+    Lcd_Write_Char('i');
     __delay_ms(2000);
   }
   return 0;
